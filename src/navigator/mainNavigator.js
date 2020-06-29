@@ -8,7 +8,6 @@ import SideMenu from './sideMenu';
 import CalendarView7103Navigator from '../features/CalendarView7103/navigator';
 import EmailAuth7102Navigator from '../features/EmailAuth7102/navigator';
 import Messaging7101Navigator from '../features/Messaging7101/navigator';
-import Messaging7100Navigator from '../features/Messaging7100/navigator';
 import EmailAuth7099Navigator from '../features/EmailAuth7099/navigator';
 import BlankScreen47093Navigator from '../features/BlankScreen47093/navigator';
 import MessengerNavigator from '../features/Messenger/navigator';
@@ -27,7 +26,6 @@ const AppNavigator = {
 CalendarView7103: { screen: CalendarView7103Navigator },
 EmailAuth7102: { screen: EmailAuth7102Navigator },
 Messaging7101: { screen: Messaging7101Navigator },
-Messaging7100: { screen: Messaging7100Navigator },
 EmailAuth7099: { screen: EmailAuth7099Navigator },
 BlankScreen47093: { screen: BlankScreen47093Navigator },
 Messenger: { screen: MessengerNavigator },
