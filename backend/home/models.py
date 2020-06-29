@@ -8,14 +8,6 @@ from django.db import models
 
 class CustomText(models.Model):
     title = models.CharField(max_length=150,)
-    jhygjg = models.BooleanField(null=True, blank=True,)
-    hgfhfh = models.OneToOneField(
-        "home.CustomText",
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True,
-        related_name="customtext_hgfhfh",
-    )
 
     def __str__(self):
         return self.title
