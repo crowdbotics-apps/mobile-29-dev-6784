@@ -23,7 +23,6 @@ export function* mainSaga() {
 CalendarView7103Saga,
 EmailAuth7102Saga,
 EmailAuth7099Saga,
-CalendarView7098Saga,
 CalendarSaga,
 EmailAuthSaga,
     
